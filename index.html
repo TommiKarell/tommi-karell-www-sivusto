@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tommi Karell – Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Siirry sisältöön</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="logo">Tommi Karell</p>
+
+      <!-- Mobiilissa avattava valikko ilman JS:ää -->
+      <details class="nav-details">
+        <summary class="nav-summary">Valikko</summary>
+        <nav aria-label="Päävalikko">
+          <ul class="nav">
+            <li><a aria-current="page" href="index.html">Etusivu</a></li>
+            <li><a href="about.html">Minusta</a></li>
+            <li><a href="projects.html">Portfolio</a></li>
+            <li><a href="contact.html">Yhteys</a></li>
+          </ul>
+        </nav>
+      </details>
+
+      <!-- Desktop-nav (näkyy leveällä näytöllä) -->
+      <nav class="nav-desktop" aria-label="Päävalikko">
+        <ul class="nav">
+          <li><a aria-current="page" href="index.html">Etusivu</a></li>
+          <li><a href="about.html">Minusta</a></li>
+          <li><a href="projects.html">Portfolio</a></li>
+          <li><a href="contact.html">Yhteys</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Tommi Karell</h1>
+        <p class="lead">Toisen vuoden IT-opiskelija – pilvi- ja tietoturvatekniikat</p>
+        <p>Asun Salossa, opiskelen Helsingissä ja käyn töissä Turussa. Rakennan käytännön osaamista pilviteknologioista ja tietoturvasta.</p>
+
+        <div class="cta-row">
+          <a class="button" href="projects.html">Katso portfolio</a>
+          <a class="button button-secondary" href="contact.html">Ota yhteyttä</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <!-- Lisää kuva images-kansioon: images/tommi-portrait.jpg -->
+        <img src="images/tommi-portrait.jpg" alt="Tommi Karellin profiilikuva" width="800" height="800" loading="lazy">
+      </div>
+    </section>
+
+    <section aria-label="Kolme asiaa minusta" class="cards-grid">
+      <article class="card">
+        <h2>Osaaminen</h2>
+        <p>Pilvi, tietoturva ja web-perusteet. Tykkään oppia tekemällä ja dokumentoida mitä opin.</p>
+      </article>
+
+      <article class="card">
+        <h2>Tiimipelaaja</h2>
+        <p>Jalkapallo on opettanut roolit, kommunikoinnin ja yhteisen tavoitteen merkityksen – sama ajattelu toimii IT-projekteissa.</p>
+      </article>
+
+      <article class="card">
+        <h2>Opiskelu & suunta</h2>
+        <p>Tavoitteena kasvaa pilviteknologioiden osaajaksi ja löytää harjoittelu-/kesätyö, jossa pääsen tekemään oikeita juttuja.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Haave: pilviteknologioiden pariin</h2>
+      <p>Haluan työskennellä tulevaisuudessa pilvi-infran ja tietoturvan rajapinnassa. Portfolio täydentyy kurssin aikana uusilla harjoituksilla ja projekteilla.</p>
+      <p><a class="button" href="projects.html">Näytä projektit</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Tommi Karell</p>
+      <p class="footer-links">
+        <a href="contact.html">Yhteys</a>
+        <span aria-hidden="true"> · </span>
+        <a href="https://github.com/TommiKarell" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
