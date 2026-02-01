@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Tommi Karell</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Siirry sisältöön</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="logo">Tommi Karell</p>
+
+      <details class="nav-details">
+        <summary class="nav-summary">Valikko</summary>
+        <nav aria-label="Päävalikko">
+          <ul class="nav">
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="about.html">Minusta</a></li>
+            <li><a aria-current="page" href="projects.html">Portfolio</a></li>
+            <li><a href="contact.html">Yhteys</a></li>
+          </ul>
+        </nav>
+      </details>
+
+      <nav class="nav-desktop" aria-label="Päävalikko">
+        <ul class="nav">
+          <li><a href="index.html">Etusivu</a></li>
+          <li><a href="about.html">Minusta</a></li>
+          <li><a aria-current="page" href="projects.html">Portfolio</a></li>
+          <li><a href="contact.html">Yhteys</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <h1>Portfolio</h1>
+    <p>Mitä olen oppinut tähän mennessä. Projektit täydentyvät kurssin aikana.</p>
+
+    <section class="card">
+      <h2>Osaaminen</h2>
+      <ul class="badges" aria-label="Osaamisbadgeja">
+        <li class="badge">HTML5</li>
+        <li class="badge">CSS</li>
+        <li class="badge">Git (perusteet)</li>
+        <li class="badge">AWS (perusteet)</li>
+      </ul>
+    </section>
+
+    <section aria-label="Opiskeluprojektit">
+      <h2>Opiskeluprojektit</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Responsiivinen portfolio (tämä sivusto)</h3>
+          <p>Mobile first -toteutus HTML:llä ja CSS:llä. Navigaatio, korttirakenne ja saavutettavuus huomioitu.</p>
+          <ul>
+            <li>Tekniikat: HTML5, CSS</li>
+            <li>Teemat: responsiivisuus, saavutettavuus</li>
+          </ul>
+          <p><a class="button" href="index.html">Avaa etusivu</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Validointi ja testaus</h3>
+          <p>HTML/CSS-validointi, Lighthouse-nopeustesti ja saavutettavuuscheckit sekä korjaukset tulosten perusteella.</p>
+          <ul>
+            <li>Työkalut: W3C Validator, CSS Validator, Lighthouse</li>
+            <li>Dokumentointi: havainnot + korjaukset</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Pilvi- ja tietoturvaperusteet</h3>
+          <p>Harjoituksia ja oppimista kohti pilvi-infraa ja turvallisuutta. (Täydennä konkreettisilla labroilla myöhemmin.)</p>
+          <ul>
+            <li>Teemat: pilvi, tietoturva</li>
+            <li>Seuraava: lisää “hands-on” demoja</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section aria-label="Harrasteprojektit">
+      <h2>Harrasteprojektit</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>GitHub-profiili</h3>
+          <p>Projektit ja harjoitukset löytyvät GitHubista. Päivitän sinne kurssin edetessä.</p>
+          <p><a class="button" href="https://github.com/TommiKarell" rel="noopener">Avaa GitHub</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Seuraavat askeleet</h2>
+      <ul>
+        <li>Lisää projekteja portfolioon (3–6 kpl)</li>
+        <li>Pilvilabra ja automaatio (pienet demot)</li>
+        <li>Mahdolliset sertit / kurssit (myöhemmin)</li>
+      </ul>
+      <p><a class="button" href="contact.html">Ota yhteyttä</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Tommi Karell</p>
+      <p class="footer-links">
+        <a href="contact.html">Yhteys</a>
+        <span aria-hidden="true"> · </span>
+        <a href="https://github.com/TommiKarell" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
