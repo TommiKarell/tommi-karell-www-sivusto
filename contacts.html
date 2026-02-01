@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yhteys – Tommi Karell</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Siirry sisältöön</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="logo">Tommi Karell</p>
+
+      <details class="nav-details">
+        <summary class="nav-summary">Valikko</summary>
+        <nav aria-label="Päävalikko">
+          <ul class="nav">
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="about.html">Minusta</a></li>
+            <li><a href="projects.html">Portfolio</a></li>
+            <li><a aria-current="page" href="contact.html">Yhteys</a></li>
+          </ul>
+        </nav>
+      </details>
+
+      <nav class="nav-desktop" aria-label="Päävalikko">
+        <ul class="nav">
+          <li><a href="index.html">Etusivu</a></li>
+          <li><a href="about.html">Minusta</a></li>
+          <li><a href="projects.html">Portfolio</a></li>
+          <li><a aria-current="page" href="contact.html">Yhteys</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <h1>Ota yhteyttä</h1>
+    <p>Vastaan mielelläni harjoittelu- ja projektimahdollisuuksiin liittyviin viesteihin.</p>
+    <p><strong>Salo – Helsinki – Turku</strong></p>
+
+    <section class="card">
+      <h2>Yhteystiedot</h2>
+      <ul>
+        <li>Sähköposti: <a href="mailto:tommi.karell@example.com">tommi.karell@example.com</a> (vaihda oma)</li>
+        <li>Puhelin: <a href="tel:+358401234567">+358 40 123 4567</a> (vaihda oma)</li>
+        <li>GitHub: <a href="https://github.com/TommiKarell" rel="noopener">github.com/TommiKarell</a></li>
+        <li>LinkedIn: <a href="#" rel="noopener">Lisää linkki tähän</a></li>
+      </ul>
+      <p class="note">Huom: alla oleva lomake on demo (ei lähetä tietoja palvelimelle).</p>
+    </section>
+
+    <section class="card" aria-label="Yhteydenottolomake">
+      <h2>Lähetä viesti</h2>
+
+      <form class="form" action="#" method="post">
+        <div class="form-field">
+          <label for="name">Nimi</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email">Sähköposti</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="message">Viesti</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button class="button" type="submit">Lähetä</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Tommi Karell</p>
+      <p class="footer-links">
+        <a href="projects.html">Portfolio</a>
+        <span aria-hidden="true"> · </span>
+        <a href="https://github.com/TommiKarell" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
